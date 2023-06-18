@@ -233,8 +233,8 @@ int b2=-1;
     }
 
     if (b1 != -1 && b2 != -1) {
-      // Do something with the differing element (i1, j1) and its value (move_fig)
-      break; // Exit the while loop when the differing element is found
+     
+      break; 
     }
   }
   
@@ -269,8 +269,7 @@ int b2=-1;
     }
 
     if (b1 != -1 && b2 != -1) {
-      // Do something with the differing element (i1, j1) and its value (move_fig)
-      break; // Exit the while loop when the differing element is found
+      break;
     }
   }
   
