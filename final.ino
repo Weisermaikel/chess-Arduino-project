@@ -36,7 +36,7 @@ int SetChannel (byte channel)
   digitalWrite(s0Pin, bitRead(channel, 0));
   digitalWrite(s1Pin, bitRead(channel, 1));
   digitalWrite(s2Pin, bitRead(channel, 2));
-  digitalWrite(s3Pin, bitRead(channel, 3));
+  digitalWrite(s3Pin , bitRead(channel, 3));
 }
 
 
