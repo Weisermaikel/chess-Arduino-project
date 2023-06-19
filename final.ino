@@ -243,17 +243,23 @@ int b2=-1;
 void compare_stage2() {
 int b1=-1;
 int b2=-1;
-
+//zmianan musi byc z 1(nie ma nic figure do zbijania wczejniej podnosimy)na 0 cos musi stac dopiro wtedy sie przerywa
   while (true) {
     check_line();
     for (int i = 0; i < 8; i++) {
       for (int j = 0; j < 8; j++) {
-        if (tab_current[i][j] != tab_prev[i][j]) {
+        if (tab_current[i][j]==0 && tab_prev[i][j]==1) {
           i2 = i;
           j2 = j;
           b1=i;
           b2=j;
           break;
+
+        }
+        else if(tab_current[i][j]==1 && tab_prev[i][j]==0){ 
+              copy_tab();
+
+
 
         }
         else{
