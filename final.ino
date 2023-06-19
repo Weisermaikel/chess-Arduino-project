@@ -1,13 +1,13 @@
-const int s0Pin = 5;   // Pin S0 multipleksera podłączony do pinu cyfrowego 2 Arduino Uno
-const int s1Pin = 4;   // Pin S1 multipleksera podłączony do pinu cyfrowego 3 Arduino Uno
-const int s2Pin = 3;   // Pin S2 multipleksera podłączony do pinu cyfrowego 4 Arduino Uno
-const int s3Pin = 2;   // Pin S3 multipleksera podłączony do pinu cyfrowego 5 Arduino Uno
+const int s0Pin = 5;   
+const int s1Pin = 4;   
+const int s2Pin = 3;   
+const int s3Pin = 2;   
 const int sigPin = 10; 
-const int sigPin1 = 11; // Pin sygnałowy multipleksera podłączony do pinu analogowego A0 Arduino Uno
+const int sigPin1 = 11;
 const int sigPin2 = 12;
 const int sigPin3 = 13;
-int latchPin = 40;           // Latch pin of 74HC595 is connected to Digital pin 5
-int clockPin = 41;           // Clock pin of 74HC595 is connected to Digital pin 6
+int latchPin = 40;           
+int clockPin = 41;          
 int dataPin = 42; 
 int tab_current[8][8];
 int tab_prev[8][8];
